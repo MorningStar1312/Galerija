@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<style>.container {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #6BA2DA;
+  margin: 10px;
+  background-image: url("placeholder-image.png") !important;
+  border-radius:5px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    width: calc(29% - 20px);
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+        height: 140px;
+  }
+  .container {
+justify-content: center;
+}
+
+}
+@media (min-width: 768px){
+  .box {
+    width: calc(19.33% - 14px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 140px;
+}
+}
+@media (max-width: 425px){
+  .box {
+    width: calc(100% - 57px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 140px;
+}
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .box {
+    width: calc(19% - 24px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+        height: 140px;
+  }
+
+img {
+          width: 114px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+}
+}
+
+/*@media (min-width: 992px) {
+  .box {
+    width: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+        height: 140px;
+  }
+}*/
+
+img {
+      width: 137px;
+    margin: 0 auto;
+    padding-bottom: 13px;
+}
+.box p{ 
+    text-align: center;
+    background-color: #FAF7FE;
+    padding-bottom: 0px;
+    margin: 0;
+
+}
+ .heading-one{
+    margin-left: 13px;
+ }
+ .paragraph-one{
+   margin-left: 13px;
+ }
+
+</style>
+
+  
+  <div><h1 class="heading-one">Gallery heading</h1></div>
+  <div class="container">
+   
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+  <div class="box"><img src="placeholder-image.png" alt=""><p>Image Title</p></div>
+</div>
+<p class="paragraph-one">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. At molestiae dolorem nobis voluptatum facilis nemo ipsa dolor officiis libero voluptatem accusamus optio temporibus doloribus dolores sit minima possimus officia, obcaecati.</p>
+</body>
+</html>
+
+
